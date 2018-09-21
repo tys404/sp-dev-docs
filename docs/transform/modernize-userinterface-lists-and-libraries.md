@@ -17,20 +17,24 @@ You can't yet transform all lists and libraries to the modern experience because
 
 ## List templates available in the modern user interface
 
-Following are the most commonly used list template types that SharePoint can currently render in a modern user interface (as of March 2018):
+Following are the most commonly used list template types that SharePoint can currently render in a modern user interface (as of July 2018):
 
 - List (100)
 - Document Library (101)
 - Links list (103)
 - Announcements list (104)
+- Contacts list (105)
 - Picture library (109)
 - Form library (115)
 - Site pages library (119)
 - Promoted links list (170)
 - Assets library (851)
+- Issue tracking list (1100)
 
-> [!NOTE]
-> Microsoft is adding modern user interface support for more and more list template types. If your adoption of the modern list and library user interface is blocked due to a key missing list template type, let us know via [UserVoice](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration).
+In this section you'll learn how to identify lists which are not showing as a modern list, why that is and how to remediate those (if possible). However before jumping into this, it's important to realize that for most tenants we see the majority of the lists loading in modern without any caveats. Lists that don't load in modern either stay in classic (like the calendar or tasks list) or can be unblocked by remediating them, which is the scope of this article series. Lists which do not load as modern list are 100% fine to use, fully supported and they should not hold you back from enabling the modern list and library experience for your tenant.
+
+> [!IMPORTANT]
+> For most tenants there are not that many lists that require remediation and as such **our recommendation is to enable the modern list and library experience at tenant level**. This will ensure that all lists that can use modern present themselves as a modern list while lists that cannot simply switch to classic when you use them.
 
 ## Detect lists and libraries not available in the modern user interface
 
