@@ -75,6 +75,7 @@ You use the following Windows PowerShell cmdlets to customize ranking models:
 ### To list all available ranking models
 
 
+
 1. Open the SharePoint Management Shell as an Administrator.
     
   
